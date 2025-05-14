@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <div class="logo-links"> 
+                <a href="">
+                    <img src="img/chapter icon.svg" alt="Chapter Icon" class="logo-icon">
+                    <p>The Wheel of Time Collection</p>
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a class="link" href="../homepage/index.html">Home</a></li>
+                <li><a class="link" href="../topicpage/topicindex.html">WoT Collection</a></li>
+                <li><a class="link" href="../tictactoe/tictactoeindex.html">Tic-Tac-Toe</a></li>
+                <li><a class="link" href="../coinflip/coinflipindex.html">Coin Flip</a></li>
+            </ul>
+        </nav>
+        <section class="heroshot">
+            <div class="heroshot-image" id="slideshow">
+                <img src="img/heroshot1.png" alt="Slide 1" class="heroshot-img">
+                <img src="img/heroshot2.png" alt="Slide 2" class="heroshot-img">
+                <img src="img/heroshot3.png" alt="Slide 3" class="heroshot-img">
+                <img src="img/heroshot4.png" alt="Slide 4" class="heroshot-img">
+            </div>
+        </section>
+        <main>
+            <section class="media-gallery">
+                <div class="gallery-item">
+                    <img src="img/book 1.jpg" alt="Book 1">
+                    <p class="book-number">Book 1</p>
+                    <hr>
+                    <p class="book-title">The Eye of The World</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/book 2.jpg" alt="Book 2">
+                    <p class="book-number">Book 2</p>
+                    <hr>
+                    <p class="book-title">The Great Hunt</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/book 3.jpg" alt="Book 3">
+                    <p class="book-number">Book 3</p>
+                    <hr>
+                    <p class="book-title">The Dragon Reborn</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/book 4.jpg" alt="Book 4">
+                    <p class="book-number">Book 4</p>
+                    <hr>
+                    <p class="book-title">The Shadow Rising</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/book 5.jpg" alt="Book 5">
+                    <p class="book-number">Book 5</p>
+                    <hr>
+                    <p class="book-title">The Fires of Heaven</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/book 6.jpg" alt="Book 6">
+                    <p class="book-number">Book 6</p>
+                    <hr>
+                    <p class="book-title">Lord of Chaos</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/book 7.jpg" alt="Book 7">
+                    <p class="book-number">Book 7</p>
+                    <hr>
+                    <p class="book-title">A Crown of Swords</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/book 8.jpg" alt="Book 8">
+                    <p class="book-number">Book 8</p>
+                    <hr>
+                    <p class="book-title">The Path of Daggers</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/book 9.jpg" alt="Book 9">
+                    <p class="book-number">Book 9</p>
+                    <hr>
+                    <p class="book-title">Winter's Heart</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/book 10.jpg" alt="Book 10">
+                    <p class="book-number">Book 10</p>
+                    <hr>
+                    <p class="book-title">Crossroads of Twilight</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/book 11.jpg" alt="Book 11">
+                    <p class="book-number">Book 11</p>
+                    <hr>
+                    <p class="book-title">Knife of Dreams</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/book 12.jpg" alt="Book 12">
+                    <p class="book-number">Book 12</p>
+                    <hr>
+                    <p class="book-title">The Gathering Storm</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/book 13.jpg" alt="Book 13">
+                    <p class="book-number">Book 13</p>
+                    <hr>
+                    <p class="book-title">Towers of Midnight</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/book 14.jpg" alt="Book 14">
+                    <p class="book-number">Book 14</p>
+                    <hr>
+                    <p class="book-title">A Memory of Light</p>
+                </div>
+            </section>
+        </main>
+        <script src="js/slideshow.js"></script>
+        <script>
+            const hamburger = document.getElementById('hamburger');
+            const navLinks = document.getElementById('nav-links');
+
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        </script>
+    </body>
+    <footer>
+        <p>&copy; 2025 Ty Oleson</p>
+    </footer>
+</html>
