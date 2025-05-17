@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pong Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav-links" id="nav-links">
+            <li><a class="link" href="../homepage/index.html">Home</a></li>
+            <li><a class="link" href="../mediagallery/galleryindex.html">Media Gallery</a></li>
+            <li><a class="link" href="../topicpage/topicindex.html">WoT Collection</a></li>
+            <li><a class="link" href="../tictactoe/tictactoeindex.html">Tic-Tac-Toe</a></li>
+            <li><a class="link" href="../coinflip/coinflipindex.html">Coin Flip</a></li>
+            
+        </ul>
+    </nav>
+    <h1>Pong Game</h1>
+    <p>Use the arrow keys to control the paddles. Player 1 uses 'W' and 'S' keys, Player 2 uses 'Up' and 'Down' keys.</p>
+    <div id="pong-container">
+        <canvas id="pong-canvas" width="600" height="400"></canvas>
+        <div id="scoreboard">
+            <span id="player1-score">0</span> : <span id="player2-score">0</span>
+        </div>
+        <button id="start-btn">Start Game</button>
+        <button id="reset-btn">Reset Game</button>
+    </div>
+    <script src="js/pong.js"></script>
+</body>
+</html>
