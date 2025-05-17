@@ -91,3 +91,16 @@ nav {
 .nav-links .link:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+    nav {
+        padding-left: 10px;
+        justify-content: center;
+    }
+    .nav-links {
+        justify-content: center;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    
+}
